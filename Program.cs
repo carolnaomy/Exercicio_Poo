@@ -26,21 +26,21 @@ namespace Exercicio_Poo
 
 
 
-            //JogoAdivinhacao jogo = new JogoAdivinhacao();
-            //Console.WriteLine("Bem-vindo ao Jogo de Adivinhação! Tente adivinhar o número secreto entre 1 e 100.");
+            JogoAdivinhacao jogo = new JogoAdivinhacao();
+            Console.WriteLine("Bem-vindo ao Jogo de Adivinhação! Tente adivinhar o número secreto entre 1 e 100.");
 
-            //while (!jogo.JogoEncerrado())
-            //{
-            //    Console.Write("Digite seu palpite: ");
-            //    if (int.TryParse(Console.ReadLine(), out int palpite))
-            //    {
-            //        jogo.Jogar(palpite);
-            //    }
-            //    else
-            //    {
-            //        Console.WriteLine("Entrada inválida. Digite um número inteiro.");
-            //    }
-            //}
+            while (!jogo.JogoEncerrado())
+            {
+                Console.Write("Digite seu palpite: ");
+                if (int.TryParse(Console.ReadLine(), out int palpite))
+                {
+                    jogo.Jogar(palpite);
+                }
+                else
+                {
+                    Console.WriteLine("Entrada inválida. Digite um número inteiro.");
+                }
+            }
 
 
 
