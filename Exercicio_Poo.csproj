@@ -59,5 +59,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Exercicio_Poo2\Exercicio_Poo2.csproj">
+      <Project>{857f44d4-b404-4b3b-baa1-22d0f86537ce}</Project>
+      <Name>Exercicio_Poo2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Exercicio_poo_2_ex_4_em_diante\Exerciciopoo2-parte2.csproj">
+      <Project>{20f8124f-9a86-41c3-9215-754aa64282f4}</Project>
+      <Name>Exerciciopoo2-parte2</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
