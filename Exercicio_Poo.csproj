@@ -43,31 +43,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aluno.cs" />
-    <Compile Include="Carro.cs" />
-    <Compile Include="Circulo.cs" />
-    <Compile Include="ContaBancaria.cs" />
-    <Compile Include="Funcionario.cs" />
-    <Compile Include="Livro.cs" />
-    <Compile Include="Paciente.cs" />
-    <Compile Include="Produto.cs" />
+    <Compile Include="Exercicio1\Aluno.cs" />
+    <Compile Include="Exercicio1\Carro.cs" />
+    <Compile Include="Exercicio1\Circulo.cs" />
+    <Compile Include="Exercicio1\ContaBancaria.cs" />
+    <Compile Include="Exercicio1\Funcionario.cs" />
+    <Compile Include="Exercicio1\Livro.cs" />
+    <Compile Include="Exercicio1\Paciente.cs" />
+    <Compile Include="Exercicio1\Produto.cs" />
+    <Compile Include="Exercicio2\Agenda.cs" />
+    <Compile Include="Exercicio2\Calendario.cs" />
+    <Compile Include="Exercicio2\Contato.cs" />
+    <Compile Include="Exercicio2\ItemCarrinho.cs" />
+    <Compile Include="Exercicio2\JogoAdivinhacao.cs" />
+    <Compile Include="Exercicio2\JogoCartas.cs" />
+    <Compile Include="Exercicio2\Livro.cs" />
+    <Compile Include="Exercicio2\LojaVirtual.cs" />
+    <Compile Include="Exercicio2\MaquinaDeVendas.cs" />
+    <Compile Include="Exercicio2\Pessoa.cs" />
+    <Compile Include="Exercicio2\Produto.cs" />
+    <Compile Include="Exercicio2\RedeSocial.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Retângulo.cs" />
-    <Compile Include="Triangulo.cs" />
+    <Compile Include="Exercicio1\Retângulo.cs" />
+    <Compile Include="Exercicio1\Triangulo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Exercicio_Poo2\Exercicio_Poo2.csproj">
-      <Project>{857f44d4-b404-4b3b-baa1-22d0f86537ce}</Project>
-      <Name>Exercicio_Poo2</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Exercicio_poo_2_ex_4_em_diante\Exerciciopoo2-parte2.csproj">
-      <Project>{20f8124f-9a86-41c3-9215-754aa64282f4}</Project>
-      <Name>Exerciciopoo2-parte2</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

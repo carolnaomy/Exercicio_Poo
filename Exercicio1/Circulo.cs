@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Exercicio_Poo
+namespace Exercicio_Poo.Exercicio1
 {
     public class Circulo
     {

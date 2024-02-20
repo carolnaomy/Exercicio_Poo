@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercicio_Poo
+namespace Exercicio_Poo.Exercicio1
 {
     public class Triangulo
     {
